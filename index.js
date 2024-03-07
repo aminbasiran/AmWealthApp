@@ -10,6 +10,7 @@ const app = express()
 app.use(morgan('combined', {
     immediate:true
   }))
+app.use(express.static("public"))
 
 
 app.use(express.json())

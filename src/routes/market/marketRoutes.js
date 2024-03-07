@@ -1,4 +1,5 @@
 const express = require("express")
+const {marketData} = require("../../controllers/market/marketControllers")
 
 const marketRouter = express.Router()
 
@@ -46,7 +47,7 @@ const marketRouter = express.Router()
  *                       type: string 
  *                       example: "Some error message"
  */
-marketRouter.get("/query") // get all instruments
+marketRouter.get("/:investment/query",marketData) // get all instruments
 
 
 module.exports = marketRouter

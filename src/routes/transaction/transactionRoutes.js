@@ -90,7 +90,7 @@ transactionRouter.get("/:portfolioID",allTransactionsByPortfolio) // get specifi
 
 /**
  * @openapi
- * /api/v1/transaction/{portfolioID}:
+ * /api/v1/transaction/{portfolioID}/create:
  *   post:
  *     tags:
  *       - transactions
@@ -108,12 +108,16 @@ transactionRouter.get("/:portfolioID",allTransactionsByPortfolio) // get specifi
  *           schema:
  *             type: object
  *             properties:
- *               newUsername:
+ *               quantity:
+ *                 type: number
+ *                 example: 10
+ *               order_type:
  *                 type: string
- *                 example: "syadia"
- *               newEmail:
- *                 type: string
- *                 example: "syadia@swagger.com"
+ *                 enum: ["buy", "sell"]
+ *                 example: "buy"
+ *               price_limit:
+ *                 type: number
+ *                 example: 150
  *     responses:
  *       200:
  *         description: OK
@@ -127,7 +131,7 @@ transactionRouter.get("/:portfolioID",allTransactionsByPortfolio) // get specifi
  *                   example: OK
  *                 data:
  *                   type: string
- *                   example: "All transactions by portfolio"
+ *                   example: "You buy 10 quantity of instrument 3. Transaction completed. Please return to dashboard to view your recent transaction."
  *       5XX:
  *         description: FAILED
  *         content:
@@ -146,7 +150,23 @@ transactionRouter.get("/:portfolioID",allTransactionsByPortfolio) // get specifi
  *                       example: "Some error message"
  */
 transactionRouter.post("/:portfolioID/create",newTransaction) // create one trx
+
+/**
+ * @openapi
+ * /api/v1/transaction/{portfolioID}/update:
+ *   put:
+ *     tags:
+ *       - transactions
+ */
 transactionRouter.put("/:portfolioID/transaction/:transactionID/update") // put specific
+
+/**
+ * @openapi
+ * /api/v1/transaction/{portfolioID}/delete:
+ *   delete:
+ *     tags:
+ *       - transactions
+ */
 transactionRouter.delete("/:portfolioID/transaction/:transactionID/delete") // delete specific
 
 module.exports = transactionRouter
