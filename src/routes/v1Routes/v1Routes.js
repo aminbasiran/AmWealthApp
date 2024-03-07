@@ -9,11 +9,11 @@ const router = express.Router()
 
 
 router.use("/auth", authRouter)
-
+console.log(__filename)
 // ADD AUTH MIDDLEWARE HERE  
 
 // 
-router.use("/user", mockAuthMiddleware,usersRouter)
+router.use("/user",mockAuthMiddleware,usersRouter)
 router.use("/dashboard",mockAuthMiddleware, dashboardRouter)
 router.use("/transaction",mockAuthMiddleware, transactionRouter)
 router.use("/market",mockAuthMiddleware, marketRouter)

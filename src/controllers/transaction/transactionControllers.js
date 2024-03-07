@@ -11,15 +11,28 @@ const allTransactions = (req,res) => {
     }
 }
 
-const allTransactionsByPortfolio = (req,res) => {
+
+
+const allTransactionsByInstrument = (req,res) => {
+
+    try {
+        res.status(200).send({ status: "OK", data: "All transactions by instrument" });
+    } 
+    
+    catch (error) {
+        res
+            .status(error?.status || 500)
+            .send({ status: "FAILED", data: { error: error?.message || error } });
+    }
+}
+
+
+
+const oneTransaction = (req,res) => {
 
     try {
 
-        // if(!portfolioID){
-        //     return res.status(500).send({status:"Failed",data: "no params"})
-        // }
-
-        res.status(200).send({ status: "OK", data: "All transactions by portfolio" });
+        res.status(200).send({ status: "OK", data: "one transaction by instrument" });
     } 
     
     catch (error) {
@@ -32,24 +45,19 @@ const allTransactionsByPortfolio = (req,res) => {
 
 const newTransaction = (req,res) => {
 
-    const {quantity,order_type,price_limit} = req.body
-    const {portfolioID} = req.params
+    const {price,quantity,order_type,price_limit} = req.body
+    const {instrument} = req.params
 
     try {
 
-        if(!portfolioID){
-            return res.status(500).send({status:"FAILED",data:"transaction incomplete. Specify which item to buy"})
 
-        }
-
-        else if(!quantity || !order_type || !price_limit){
-            return res.status(500).send({status:"FAILED",data:"quantity/price limit/order type is not specified"})
+        if(!quantity || !order_type || !price_limit || !price){
+            return res.status(500).send({status:"FAILED",data:"quantity/price limit/price/order type is not specified"})
         }
 
 
         else{
-            res.status(200).send({ status: "OK", data: `You ${order_type} ${quantity} quantity of instrument ${portfolioID}. Transaction completed. Please return to dashboard to view your recent transaction.` });
-
+            res.status(200).send({ status: "OK", data: `You ${order_type} ${quantity} quantity of ${instrument}. Transaction completed. Please return to dashboard to view your recent transaction.` });
         }
     } 
     
@@ -60,4 +68,53 @@ const newTransaction = (req,res) => {
     }
 }
 
-module.exports = {allTransactions,allTransactionsByPortfolio,newTransaction}
+const updateTransaction = (req,res) => {
+
+    const {newQuantity} = req.body
+    const {instrument,portfolioID} = req.params
+
+    try {
+        if(!newQuantity){
+            return res.status(500).send({status:"FAILED",data:"new quantity is not specified"})
+        }
+        
+        else if(!instrument || !portfolioID){
+            return res.status(500).send({status:"FAILED",data:"instrument/portfolioaID is not specified"})
+        }
+
+
+        else{
+            res.status(200).send({ status: "OK", data: "Transaction updated." });
+        }
+    } 
+    
+    catch (error) {
+        res
+            .status(error?.status || 500)
+            .send({ status: "FAILED", data: { error: error?.message || error } });
+    }
+}
+
+const deleteTransaction = (req,res) => {
+
+    const {instrument,portfolioID} = req.params
+
+    try {
+        if(!instrument || !portfolioID){
+            return res.status(500).send({status:"FAILED",data:"instrument/portfolioID is not specified"})
+        }
+
+
+        else{
+            res.status(200).send({ status: "OK", data: "Transcation has been revoked" });
+        }
+    } 
+    
+    catch (error) {
+        res
+            .status(error?.status || 500)
+            .send({ status: "FAILED", data: { error: error?.message || error } });
+    }
+}
+
+module.exports = {allTransactions,allTransactionsByInstrument,oneTransaction,newTransaction,updateTransaction,deleteTransaction}

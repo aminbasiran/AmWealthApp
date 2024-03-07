@@ -4,7 +4,7 @@ const dashboardRouter = express.Router()
 
 /**
  * @openapi
- * /dashboard/portfolio:
+ * /api/v1/dashboard/portfolio:
  *   get:
  *     tags:
  *       - dashboard

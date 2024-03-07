@@ -19,7 +19,6 @@ app.use(express.json())
 
 // alternative, use fs module to read
 app.use(express.static(path.join(__dirname,"public")))
-
 app.use("/api/v1",v1Routes)
 swaggerDocs(app,PORT)
 

@@ -57,7 +57,7 @@ marketRouter.get("/temp",async (req,res)=>{
 
 /**
  * @openapi
- * /market/{investment}/query:
+ * /api/v1/market/{instrument}/query:
  *   get:
  *     tags:
  *       - market
@@ -101,5 +101,5 @@ marketRouter.get("/temp",async (req,res)=>{
  */
 marketRouter.get("/:investment/query",marketData) // get all instruments
 
-
+// https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=demo
 module.exports = marketRouter
