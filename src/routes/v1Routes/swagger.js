@@ -32,8 +32,11 @@ const swaggerSpec = swaggerJSDoc(options)
 const swaggerDocs = (app,port) => {
     app.use("/api/v1/docs",swaggerUi.serve,swaggerUi.setup(swaggerSpec))
     console.log(
-        `Version 1 Docs are available on http://localhost:${port}/api/v1/docs`
+        `Version 1 Docs are available on https://amwealthapp-mock-api.onrender.com/api/v1/docs`
     );
+    // console.log(
+    //     `Version 1 Docs are available on http://localhost:${port}/api/v1/docs`
+    // );
 }
 
 module.exports = {swaggerDocs}
