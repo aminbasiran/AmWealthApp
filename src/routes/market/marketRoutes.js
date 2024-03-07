@@ -6,20 +6,58 @@ const marketRouter = express.Router()
 
 
 // testing
+
+/**
+ * @openapi
+ * /api/v1/market/temp:
+ *   get:
+ *     tags:
+ *       - market
+ *     responses:
+ *       200:
+ *         description: OK
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: OK
+ *                 data:
+ *                   type: string
+ *                   example: "result"
+ *                
+ *       5XX:
+ *         description: FAILED
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status: 
+ *                   type: string
+ *                   example: FAILED
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     error:
+ *                       type: string 
+ *                       example: "Some error message"
+ */
 marketRouter.get("/temp",async (req,res)=>{
     try {
         const response = await axios.get("http://localhost:3000/market.json")
         res.json(response.data)
+        // res.send("hello")
     } catch (error) {
         res.status(500).send("internal server error")
-        
     }
-
 })
 
 /**
  * @openapi
- * /market/query:
+ * /market/{investment}/query:
  *   get:
  *     tags:
  *       - market
