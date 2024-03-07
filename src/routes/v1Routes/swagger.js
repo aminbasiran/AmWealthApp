@@ -17,9 +17,13 @@ const options = {
         },
         servers: [
             {
-                url: ["http://localhost:3000", "https://amwealthapp-mock-api.onrender.com"],
+                url: "http://localhost:3000",
                 description: 'Development server',
             },
+            {
+                url: "https://amwealthapp-mock-api.onrender.com",
+                description: 'Mock API server',
+            }
         ],
         
     },
