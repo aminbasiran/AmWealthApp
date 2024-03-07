@@ -1,7 +1,21 @@
 const express = require("express")
 const {marketData} = require("../../controllers/market/marketControllers")
+const { default: axios } = require("axios")
 
 const marketRouter = express.Router()
+
+
+// testing
+marketRouter.get("/temp",async (req,res)=>{
+    try {
+        const response = await axios.get("http://localhost:3000/market.json")
+        res.json(response.data)
+    } catch (error) {
+        res.status(500).send("internal server error")
+        
+    }
+
+})
 
 /**
  * @openapi

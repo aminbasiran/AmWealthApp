@@ -1,0 +1,283 @@
+{
+    "instruments" : {
+        "stocks" : {
+            "results": [
+                {
+                    "name": "Advantage Asia Pacific ex Japan Dividend",
+                    "nav": 1.8581,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "Advantage Global Equity Volatility Focused - AUD Hedged Class",
+                    "nav": 1.2693,
+                    "currency": "AUD"
+                  },
+                  {
+                    "name": "Advantage Global Equity Volatility Focused - MYR Hedged Class",
+                    "nav": 1.3444,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "Advantage Global High Income Bond - RM Hedged Class",
+                    "nav": 0.9216,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "Advantage Global High Income Bond - USD Class",
+                    "nav": 0.8589,
+                    "currency": "USD"
+                  },
+                  {
+                    "name": "AmAl-Amin",
+                    "nav": 1,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "AmASEAN Equity",
+                    "nav": 0.4039,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "AmAsia Pacific REITs - Class B (MYR)",
+                    "nav": 0.6549,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "AmAsia Pacific REITs Plus",
+                    "nav": 0.4696,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "AmBalanced",
+                    "nav": 1.3594,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "AmBon Islam",
+                    "nav": 1.3333,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "AmBond",
+                    "nav": 1.3584,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "AmBond Select 1",
+                    "nav": 1.0412,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "AmBond Select 2",
+                    "nav": null,
+                    "currency": null
+                  },
+                    {
+                        "name": "AmCash Management - Class A",
+                        "nav": 1,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmCash Management - Class B",
+                        "nav": 1,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmCash Plus",
+                        "nav": 0.9747,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmChina A-Shares - AUD-Hedged Class",
+                        "nav": 0.4614,
+                        "currency": "AUD"
+                      },
+                      {
+                        "name": "AmChina A-Shares - RM Class",
+                        "nav": 3.0271,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmChina A-Shares - RM-Hedged Class",
+                        "nav": 0.9722,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmChina A-Shares - SGD-Hedged Class",
+                        "nav": 0.4919,
+                        "currency": "SGD"
+                      },
+                      {
+                        "name": "AmChina A-Shares - USD Class",
+                        "nav": 0.5122,
+                        "currency": "USD"
+                      },
+                      {
+                        "name": "AmConservative",
+                        "nav": 1.1639,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmCumulative Growth",
+                        "nav": 0.8999,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmDividend Income",
+                        "nav": 0.3055,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmDynamic Allocator",
+                        "nav": 0.2328,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmDynamic Bond",
+                        "nav": 0.7222,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmDynamic Sukuk - Class A",
+                        "nav": 1.5106,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmDynamic Sukuk - Class B",
+                        "nav": 1.4595,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIncome",
+                        "nav": 1,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIncome Advantage",
+                        "nav": 1.0158,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIncome Focus",
+                        "nav": 1,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIncome Institutional 1",
+                        "nav": 1.0166,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIncome Institutional 3",
+                        "nav": 1.0129,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIncome Institutional 5",
+                        "nav": 1.0497,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIncome Management",
+                        "nav": 1.0593,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIncome Plus",
+                        "nav": 0.6632,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIncome Select",
+                        "nav": 0.9279,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIncome USD Fund",
+                        "nav": 1.4706,
+                        "currency": "USD"
+                      },
+                      {
+                        "name": "AmIncome Value",
+                        "nav": 1.0302,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmInstitutional Income Bond",
+                        "nav": 1.0581,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmInstitutional Income Premium",
+                        "nav": 1,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIslamic Balanced",
+                        "nav": 0.5639,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIslamic Cash Management - Class A",
+                        "nav": 1,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIslamic Cash Management - Class B",
+                        "nav": 1,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIslamic Cash Management - Class C",
+                        "nav": 1,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIslamic Cash Management - Class D",
+                        "nav": 1,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIslamic China Equity Fund � RM Class",
+                        "nav": 1.0448,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIslamic China Equity Fund � USD Class",
+                        "nav": 0.9838,
+                        "currency": "USD"
+                      },
+                      {
+                        "name": "AmIslamic Fixed Income Conservative",
+                        "nav": 1.4454,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIslamic Global SRI - RM",
+                        "nav": 1.1108,
+                        "currency": "MYR"
+                      },
+                      {
+                        "name": "AmIslamic Global SRI - USD R",
+                        "nav": 1.0018,
+                        "currency": "USD"
+                      },
+                      {
+                        "name": "AmIslamic Growth",
+                        "nav": 0.5626,
+                        "currency": "MYR"
+                      }
+            ]
+        },
+        "mutual_funds" : {
+            "results": []
+        },
+        "options" : {
+            "results": []
+        },
+        "futures" : {
+            "results": []
+        }
+    }
+    
+}
