@@ -268,16 +268,32 @@
                         "currency": "MYR"
                       }
             ]
-        },
-        "mutual_funds" : {
-            "results": []
-        },
-        "options" : {
-            "results": []
-        },
-        "futures" : {
-            "results": []
-        }
+          },
+          "mutual_funds" : {
+            "results": [
+                {
+                    "name": "Advantage Asia Pacific ex Japan Dividend",
+                    "nav": 1.8581,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "Advantage Global Equity Volatility Focused - AUD Hedged Class",
+                    "nav": 1.2693,
+                    "currency": "AUD"
+                  },
+                  {
+                    "name": "Advantage Global Equity Volatility Focused - MYR Hedged Class",
+                    "nav": 1.3444,
+                    "currency": "MYR"
+                  },
+                  {
+                    "name": "Advantage Global High Income Bond - RM Hedged Class",
+                    "nav": 0.9216,
+                    "currency": "MYR"
+                  }
+            ]
+
+          }
     }
     
 }

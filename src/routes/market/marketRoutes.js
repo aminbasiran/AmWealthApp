@@ -1,72 +1,21 @@
 const express = require("express")
 const {marketData} = require("../../controllers/market/marketControllers")
-const { default: axios } = require("axios")
 
 const marketRouter = express.Router()
 
-
-// testing
-
 /**
  * @openapi
- * /api/v1/market/temp:
- *   get:
- *     tags:
- *       - market
- *     responses:
- *       200:
- *         description: OK
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 status:
- *                   type: string
- *                   example: OK
- *                 data:
- *                   type: string
- *                   example: "result"
- *                
- *       5XX:
- *         description: FAILED
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 status: 
- *                   type: string
- *                   example: FAILED
- *                 data:
- *                   type: object
- *                   properties:
- *                     error:
- *                       type: string 
- *                       example: "Some error message"
- */
-marketRouter.get("/temp",async (req,res)=>{
-    try {
-        const response = await axios.get("http://localhost:3000/market.json")
-        res.json(response.data)
-        // res.send("hello")
-    } catch (error) {
-        res.status(500).send("internal server error")
-    }
-})
-
-/**
- * @openapi
- * /api/v1/market/{instrument}/query:
+ * /api/v1/market/query:
  *   get:
  *     tags:
  *       - market
  *     parameters:
  *       - in: query
- *         name: mode
+ *         name: instrument
  *         schema:
- *           type: string
- *         description: The mode of a workout
+ *           type: string 
+ *           required: true 
+ *           description: Description of the query parameter
  *     responses:
  *       200:
  *         description: OK
@@ -79,9 +28,8 @@ marketRouter.get("/temp",async (req,res)=>{
  *                   type: string
  *                   example: OK
  *                 data:
- *                   type: array 
- *                   items: 
- *                     $ref: "#/components/schemas/Workout"
+ *                   type: string
+ *                   example: "all mutual funds"
  *       5XX:
  *         description: FAILED
  *         content:
@@ -99,7 +47,7 @@ marketRouter.get("/temp",async (req,res)=>{
  *                       type: string 
  *                       example: "Some error message"
  */
-marketRouter.get("/:investment/query",marketData) // get all instruments
+marketRouter.get("/query",marketData) // get all instruments
 
 // https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=demo
 module.exports = marketRouter

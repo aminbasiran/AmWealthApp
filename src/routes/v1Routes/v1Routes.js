@@ -9,7 +9,6 @@ const router = express.Router()
 
 
 router.use("/auth", authRouter)
-console.log(__filename)
 // ADD AUTH MIDDLEWARE HERE  
 
 // 

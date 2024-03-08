@@ -8,12 +8,7 @@ const options = {
         info : {
             title : "Am Wealth App",
             version: "1.0.0",
-            description:"This is an application made with Express and documented with Swagger",
-            contact: {
-                name: "Am Wealth",
-                url: "https://AmWealth.com",
-                email: "AMWealth@email.com",
-            },
+            description:"This is an application made with Express and documented with Swagger"
         },
         servers: [
             {
@@ -38,9 +33,6 @@ const swaggerDocs = (app,port) => {
     console.log(
         `Version 1 Docs are available on https://amwealthapp-mock-api.onrender.com/api/v1/docs`
     );
-    // console.log(
-    //     `Version 1 Docs are available on http://localhost:${port}/api/v1/docs`
-    // );
 }
 
 module.exports = {swaggerDocs}

@@ -4,8 +4,9 @@ const cors = require("cors")
 const path = require("path")
 const v1Routes = require("./src/routes/v1Routes/v1Routes")
 const {swaggerDocs} = require("./src/routes/v1Routes/swagger")
+require("dotenv").config()
 
-const PORT = 3000
+const PORT = process.env.PORT || 3001
 
 
 const app = express()
@@ -24,5 +25,5 @@ swaggerDocs(app,PORT)
 
 
 app.listen(PORT,()=>{
-    console.log(`server is running on port: ${PORT}`)
+    console.log(PORT)
 })
