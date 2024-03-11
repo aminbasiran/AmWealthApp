@@ -9,6 +9,7 @@ const transactionRouter = express.Router()
  *   get:
  *     tags:
  *       - transactions
+ *     summary: Get all transactions by the user
  *     responses:
  *       200:
  *         description: OK
@@ -55,6 +56,7 @@ transactionRouter.get("/",allTransactions) // get all trx
  *         schema:
  *           type: string
  *           description: The name of the fund example, mutual fund/stocks/options.
+ *     summary: Get all transaction by fund of a user
  *     responses:
  *       200:
  *         description: OK
@@ -107,6 +109,7 @@ transactionRouter.get("/:instrument",allTransactionsByInstrument) // get all tra
  *         schema:
  *           type: number
  *           description: The id of a specific transaction.
+ *     summary: Get specific transaction
  *     responses:
  *       200:
  *         description: OK
@@ -173,6 +176,7 @@ transactionRouter.get("/:instrument/:portfolioID",oneTransaction) // get specifi
  *               price_limit:
  *                 type: number
  *                 example: 150
+ *     summary: Create a new transaction of a fund
  *     responses:
  *       200:
  *         description: OK
@@ -235,6 +239,7 @@ transactionRouter.post("/:instrument/create",newTransaction) // create one trx
  *               newQuantity:
  *                 type: number
  *                 example: 500
+ *     summary: Update a specific transaction
  *     responses:
  *       200:
  *         description: OK
@@ -287,6 +292,7 @@ transactionRouter.put("/:instrument/:portfolioID/update",updateTransaction) // p
  *         schema:
  *           type: number
  *           description: The ID of the portfolio to retrieve transactions for.
+ *     summary: Delete a specific transaction
  *     responses:
  *       200:
  *         description: OK

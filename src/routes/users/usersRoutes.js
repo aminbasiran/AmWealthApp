@@ -9,6 +9,7 @@ const usersRouter = express.Router()
  *   get:
  *     tags:
  *       - user
+ *     summary: Get current user logging in to the app
  *     responses:
  *       200:
  *         description: OK
@@ -71,6 +72,7 @@ usersRouter.get("/",currentUser) // get
  *               newEmail:
  *                 type: string
  *                 example: "alif@swagger.com"
+ *     summary: Update user's details
  *     responses:
  *       200:
  *         description: OK
@@ -120,6 +122,7 @@ usersRouter.put("/update",updateUser) //put
  *               newPassword:
  *                 type: string
  *                 example: "@roud863K"
+ *     summary: Update user's password
  *     responses:
  *       200:
  *         description: OK

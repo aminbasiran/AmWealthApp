@@ -9,6 +9,7 @@ const authRouter = express.Router()
  *   post:
  *     tags:
  *       - auth
+ *     summary: User logs in
  *     responses:
  *       200:
  *         description: OK
@@ -48,6 +49,7 @@ authRouter.post("/login",userLogin) //post
  *   post:
  *     tags:
  *       - auth
+ *     summary: User logs out
  *     responses:
  *       200:
  *         description: OK
@@ -87,6 +89,7 @@ authRouter.post("/logout",userLogout) //post
  *   post:
  *     tags:
  *       - auth
+ *     summary: User registers
  *     responses:
  *       200:
  *         description: OK
