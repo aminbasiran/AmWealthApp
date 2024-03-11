@@ -5,7 +5,7 @@ const marketRouter = express.Router()
 
 /**
  * @openapi
- * /api/v1/market/query:
+ * /market/query:
  *   get:
  *     tags:
  *       - market

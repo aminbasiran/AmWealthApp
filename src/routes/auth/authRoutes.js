@@ -5,7 +5,7 @@ const authRouter = express.Router()
 
 /**
  * @openapi
- * /api/v1/auth/login:
+ * /auth/login:
  *   post:
  *     tags:
  *       - auth
@@ -44,7 +44,7 @@ authRouter.post("/login",userLogin) //post
 
 /**
  * @openapi
- * /api/v1/auth/logout:
+ * /auth/logout:
  *   post:
  *     tags:
  *       - auth
@@ -83,7 +83,7 @@ authRouter.post("/logout",userLogout) //post
 
 /**
  * @openapi
- * /api/v1/auth/register:
+ * /auth/register:
  *   post:
  *     tags:
  *       - auth

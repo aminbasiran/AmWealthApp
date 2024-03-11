@@ -1,11 +1,11 @@
 const express = require("express")
-const {currUser,changePassword,updateUser} = require("../../controllers/user/userControllers")
+const {currentUser,changePassword,updateUser} = require("../../controllers/user/userControllers")
 
 const usersRouter = express.Router()
 
 /**
 * @openapi
- * /api/v1/user:
+ * /user:
  *   get:
  *     tags:
  *       - user
@@ -49,12 +49,12 @@ const usersRouter = express.Router()
  *                       type: string 
  *                       example: "Some error message"
  */
-usersRouter.get("/",currUser) // get
+usersRouter.get("/",currentUser) // get
 
 
 /**
 * @openapi
- * /api/v1/user/update:
+ * /user/update:
  *   put:
  *     tags:
  *       - user
@@ -67,10 +67,10 @@ usersRouter.get("/",currUser) // get
  *             properties:
  *               newUsername:
  *                 type: string
- *                 example: "syadia"
+ *                 example: "alif"
  *               newEmail:
  *                 type: string
- *                 example: "syadia@swagger.com"
+ *                 example: "alif@swagger.com"
  *     responses:
  *       200:
  *         description: OK
@@ -106,7 +106,7 @@ usersRouter.put("/update",updateUser) //put
 
 /**
 * @openapi
- * /api/v1/user/password/change:
+ * /user/password/change:
  *   put:
  *     tags:
  *       - user

@@ -1,10 +1,10 @@
-const currUser = (req,res) => {
+const currentUser = (req,res) => {
 
     const {user} = req
 
     try {
-        const userPage = user;
-        res.send({ status: "OK", data: userPage });
+        const currentUser = user;
+        res.send({ status: "OK", data: currentUser });
     } 
     
     catch (error) {
@@ -58,4 +58,4 @@ const changePassword = (req,res) => {
     }
 }
 
-module.exports = {currUser,updateUser,changePassword}
+module.exports = {currentUser,updateUser,changePassword}

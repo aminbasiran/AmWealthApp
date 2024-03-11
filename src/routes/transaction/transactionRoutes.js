@@ -5,7 +5,7 @@ const transactionRouter = express.Router()
 
 /**
  * @openapi
- * /api/v1/transaction:
+ * /transaction:
  *   get:
  *     tags:
  *       - transactions
@@ -44,16 +44,16 @@ transactionRouter.get("/",allTransactions) // get all trx
 
 /**
  * @openapi
- * /api/v1/transaction/{instrument}:
+ * /transaction/{instrument}:
  *   get:
  *     tags:
  *       - transactions
  *     parameters:
  *       - in: path
- *         name: portfolioID
+ *         name: instrument
  *         required: true
  *         schema:
- *           type: number
+ *           type: string
  *           description: The name of the fund example, mutual fund/stocks/options.
  *     responses:
  *       200:
@@ -90,7 +90,7 @@ transactionRouter.get("/:instrument",allTransactionsByInstrument) // get all tra
 
 /**
  * @openapi
- * /api/v1/transaction/{instrument}/{portfolioID}:
+ * /transaction/{instrument}/{portfolioID}:
  *   get:
  *     tags:
  *       - transactions
@@ -142,7 +142,7 @@ transactionRouter.get("/:instrument/:portfolioID",oneTransaction) // get specifi
 
 /**
  * @openapi
- * /api/v1/transaction/{instrument}/create:
+ * /transaction/{instrument}/create:
  *   post:
  *     tags:
  *       - transactions
@@ -208,7 +208,7 @@ transactionRouter.post("/:instrument/create",newTransaction) // create one trx
 
 /**
  * @openapi
- * /api/v1/transaction/{instrument}/{portfolioID}/update:
+ * /transaction/{instrument}/{portfolioID}/update:
  *   put:
  *     tags:
  *       - transactions
@@ -270,7 +270,7 @@ transactionRouter.put("/:instrument/:portfolioID/update",updateTransaction) // p
 
 /**
  * @openapi
- * /api/v1/transaction/{instrument}/{portfolioID}/delete:
+ * /transaction/{instrument}/{portfolioID}/delete:
  *   delete:
  *     tags:
  *       - transactions

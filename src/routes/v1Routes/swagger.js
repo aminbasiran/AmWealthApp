@@ -12,11 +12,11 @@ const options = {
         },
         servers: [
             {
-                url: "http://localhost:3000",
+                url: "http://localhost:3000/api/v1",
                 description: 'Development server',
             },
             {
-                url: "https://amwealthapp-mock-api.onrender.com",
+                url: "https://amwealthapp-mock-api.onrender.com/api/v1",
                 description: 'Mock API server',
             }
         ],
