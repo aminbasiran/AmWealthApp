@@ -13,8 +13,7 @@ const marketRouter = express.Router()
  *       - in: query
  *         name: instrument
  *         schema:
- *           type: string 
- *           required: true 
+ *           type: string
  *           description: Description of the query parameter
  *     responses:
  *       200:

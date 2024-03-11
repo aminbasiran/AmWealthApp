@@ -25,7 +25,7 @@ const userLogout = (req,res) => {
 const userRegister = (req,res) => {
     try {
         // *** ADD ***
-        const registeredUser = "user Registered";
+        const registeredUser = "user registered";
         res.send({ status: "OK", data: registeredUser });
     } catch (error) {
     res

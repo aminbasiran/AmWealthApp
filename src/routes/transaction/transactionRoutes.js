@@ -186,7 +186,7 @@ transactionRouter.get("/:instrument/:portfolioID",oneTransaction) // get specifi
  *                   example: OK
  *                 data:
  *                   type: string
- *                   example: "You buy 10 quantity of mutual fund. Transaction completed. Please return to dashboard to view your recent transaction."
+ *                   example: "Transaction completed"
  *       5XX:
  *         description: FAILED
  *         content:
@@ -300,7 +300,7 @@ transactionRouter.put("/:instrument/:portfolioID/update",updateTransaction) // p
  *                   example: OK
  *                 data:
  *                   type: string
- *                   example: "transaction has been revoked."
+ *                   example: "transaction has been deleted."
  *       5XX:
  *         description: FAILED
  *         content:

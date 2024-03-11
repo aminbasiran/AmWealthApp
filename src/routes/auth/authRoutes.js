@@ -22,7 +22,7 @@ const authRouter = express.Router()
  *                   example: OK
  *                 data:
  *                   type: string
- *                   example: " i have logged"
+ *                   example: " i have logged in"
  *       5XX:
  *         description: FAILED
  *         content:

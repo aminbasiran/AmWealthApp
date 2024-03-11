@@ -1,5 +1,5 @@
 const express = require("express")
-const {userPage,changePassword,updateUser} = require("../../controllers/user/userControllers")
+const {currUser,changePassword,updateUser} = require("../../controllers/user/userControllers")
 
 const usersRouter = express.Router()
 
@@ -49,7 +49,7 @@ const usersRouter = express.Router()
  *                       type: string 
  *                       example: "Some error message"
  */
-usersRouter.get("/",userPage) // get
+usersRouter.get("/",currUser) // get
 
 
 /**
@@ -133,7 +133,7 @@ usersRouter.put("/update",updateUser) //put
  *                   example: OK
  *                 data:
  *                   type: string
- *                   example: "user successfully updated"   
+ *                   example: "password successfully updated"   
  *       5XX:
  *         description: FAILED
  *         content:

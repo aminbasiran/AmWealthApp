@@ -57,7 +57,7 @@ const newTransaction = (req,res) => {
 
 
         else{
-            res.status(200).send({ status: "OK", data: `You ${order_type} ${quantity} quantity of ${instrument}. Transaction completed. Please return to dashboard to view your recent transaction.` });
+            res.status(200).send({ status: "OK", data: "transaction completed" });
         }
     } 
     
@@ -106,7 +106,7 @@ const deleteTransaction = (req,res) => {
 
 
         else{
-            res.status(200).send({ status: "OK", data: "Transcation has been revoked" });
+            res.status(200).send({ status: "OK", data: "Transcation has been deleted" });
         }
     } 
     

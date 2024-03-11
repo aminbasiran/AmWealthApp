@@ -1,9 +1,8 @@
-const userPage = (req,res) => {
+const currUser = (req,res) => {
 
     const {user} = req
 
     try {
-
         const userPage = user;
         res.send({ status: "OK", data: userPage });
     } 
@@ -59,4 +58,4 @@ const changePassword = (req,res) => {
     }
 }
 
-module.exports = {userPage,updateUser,changePassword}
+module.exports = {currUser,updateUser,changePassword}
