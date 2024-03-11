@@ -2,7 +2,7 @@ const axios = require("axios")
 
 const marketData = async (req,res)=>{
 
-    const {instrument} = req.query
+    const {instrument, limit} = req.query
     try {
 
         if(instrument === undefined){
