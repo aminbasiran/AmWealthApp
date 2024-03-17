@@ -1,0 +1,402 @@
+[
+    {
+      "name": "Advantage Asia Pacific ex Japan Dividend",
+      "NAV_per_unit": 1.9233,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Advantage Global Equity Volatility Focused - AUD Hedged Class",
+      "NAV_per_unit": 1.2788,
+      "currency": "AUD"
+    },
+    {
+      "name": "Advantage Global Equity Volatility Focused - MYR Hedged Class",
+      "NAV_per_unit": 1.3540,
+      "currency": "MYR"
+    },
+    {
+      "name": "AmASEAN Equity",
+      "NAV_per_unit": 0.4039,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmAsia Pacific REITs - Class B (MYR)",
+      "NAV_per_unit": 0.6604,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmAsia Pacific REITs Plus",
+      "NAV_per_unit": 0.4731,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmChina A-Shares - AUD-Hedged Class",
+      "NAV_per_unit": 0.4639,
+      "currency": "AUD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmChina A-Shares - RM Class",
+      "NAV_per_unit": 3.0128,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmChina A-Shares - RM-Hedged Class",
+      "NAV_per_unit": 0.9771,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmChina A-Shares - SGD-Hedged Class",
+      "NAV_per_unit": 0.4943,
+      "currency": "SGD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmChina A-Shares - USD Class",
+      "NAV_per_unit": 0.5151,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmCumulative Growth",
+      "NAV_per_unit": 0.9288,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmDividend Income",
+      "NAV_per_unit": 0.3097,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmDynamic Allocator",
+      "NAV_per_unit": 0.2330,
+      "currency": "MYR"
+    },
+    {
+      "name": "AmIslamic China Equity Fund – RM Class",
+      "NAV_per_unit": 1.0320,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmIslamic China Equity Fund – USD Class",
+      "NAV_per_unit": 0.9819,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmIslamic Global SRI - RM",
+      "NAV_per_unit": 1.1177,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmIslamic Global SRI - USD R",
+      "NAV_per_unit": 1.0187,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmIslamic Growth",
+      "NAV_per_unit": 0.5703,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmIttikal",
+      "NAV_per_unit": 0.5274,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmMalaysia Equity",
+      "NAV_per_unit": 1.9668,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Climate Tech Fund - RM Class",
+      "NAV_per_unit": 0.9475,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Climate Tech Fund - RM-Hedged Class",
+      "NAV_per_unit": 0.7863,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Climate Tech Fund - USD Class",
+      "NAV_per_unit": 0.8482,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Global Lower Carbon Equity Fund - RM Class",
+      "NAV_per_unit": 1.0845,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Global Lower Carbon Equity Fund - RM-Hedged Class",
+      "NAV_per_unit": 0.9873,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Global Lower Carbon Equity Fund - USD Class",
+      "NAV_per_unit": 1.0208,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Health Fund - RM Class",
+      "NAV_per_unit": 1.0177,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Health Fund - RM-Hedged Class",
+      "NAV_per_unit": 1.0177,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Health Fund - USD Class",
+      "NAV_per_unit": 0.9658,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Nutrition Fund - RM Class",
+      "NAV_per_unit": 0.6843,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Nutrition Fund - RM-Hedged Class",
+      "NAV_per_unit": 0.5945,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Nutrition Fund - USD Class",
+      "NAV_per_unit": 0.6115,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Positive Change - USD Class",
+      "NAV_per_unit": 0.7893,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Positive Change RM-Hedged Class",
+      "NAV_per_unit": 0.7428,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Sustainable Outcomes Global Equity Fund - RM Class",
+      "NAV_per_unit": 1.4096,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Sustainable Outcomes Global Equity Fund - RM-Hedged Class",
+      "NAV_per_unit": 1.2777,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmSustainable Series - Sustainable Outcomes Global Equity Fund - USD Class",
+      "NAV_per_unit": 1.3304,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmTotal Return",
+      "NAV_per_unit": 0.4673,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Asia Pacific Equity Income",
+      "NAV_per_unit": 0.8837,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Asia-Pacific Property Equities",
+      "NAV_per_unit": 1.0563,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Europe Equity Growth",
+      "NAV_per_unit": 2.7565,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "European Equity Alpha",
+      "NAV_per_unit": 1.2818,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Global Agribusiness",
+      "NAV_per_unit": 1.5934,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Global Dividend - RM Class",
+      "NAV_per_unit": 1.6125,
+      "currency": "MYR",
+      "risk_profile" : "high" 
+    },
+    {
+      "name": "Global Dividend - RM Hedged Class",
+      "NAV_per_unit": 1.0000,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Global Dividend - USD Class",
+      "NAV_per_unit": 1.3852,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Global Emerging Market Opportunities",
+      "NAV_per_unit": 1.8285,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Global Islamic Equity*",
+      "NAV_per_unit": 1.2756,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Global Multi -Asset Income - AUD Class",
+      "NAV_per_unit": 0.8383,
+      "currency": "AUD"
+    },
+    {
+      "name": "Global Multi -Asset Income - MYR Class",
+      "NAV_per_unit": 0.8617,
+      "currency": "MYR"
+    },
+    {
+      "name": "Global Multi -Asset Income - SGD Class",
+      "NAV_per_unit": 0.8006,
+      "currency": "SGD"
+    },
+    {
+      "name": "Global Multi -Asset Income - USD Class",
+      "NAV_per_unit": 0.8617,
+      "currency": "USD"
+    },
+    {
+      "name": "Global Property Equities Fund",
+      "NAV_per_unit": 1.8650,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Global Smaller Companies Fund - RM Class",
+      "NAV_per_unit": 0.8065,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Global Smaller Companies Fund - RM-Hedged Class",
+      "NAV_per_unit": 0.6840,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Global Smaller Companies Fund - USD Class",
+      "NAV_per_unit": 0.7219,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Hong Kong Tech Index Fund - HKD Class",
+      "NAV_per_unit": 0.6937,
+      "currency": "HKD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Hong Kong Tech Index Fund - RM Class",
+      "NAV_per_unit": 0.7670,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Hong Kong Tech Index Fund - RM-Hedged Class",
+      "NAV_per_unit": 0.6621,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "New China Sectors Index Fund - HKD Class",
+      "NAV_per_unit": 0.0976,
+      "currency": "HKD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "New China Sectors Index Fund - RM Class",
+      "NAV_per_unit": 0.1457,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "New China Sectors Index Fund - RM-Hedged Class",
+      "NAV_per_unit": 0.0916,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Pan European Property Equities",
+      "NAV_per_unit": 1.0954,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Precious Metals Securities",
+      "NAV_per_unit": 0.4568,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Robotech Fund - RM Hedged Class*",
+      "NAV_per_unit": 1.4267,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Robotech Fund - USD CLASS*",
+      "NAV_per_unit": 1.5732,
+      "currency": "USD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "US-Canada Income And Growth",
+      "NAV_per_unit": 1.0923,
+      "currency": "MYR"
+    }
+  ]

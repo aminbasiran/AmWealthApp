@@ -1,0 +1,245 @@
+[
+    {
+      "name": "Advantage Global High Income Bond - RM Hedged Class",
+      "NAV_per_unit": 0.9223,
+      "currency": "MYR",
+      "risk_profile" : "medium to high"
+    },
+    {
+      "name": "Advantage Global High Income Bond - USD Class",
+      "NAV_per_unit": 0.8601,
+      "currency": "USD",
+      "risk_profile" : "medium to high"
+    },
+    {
+      "name": "AmAl-Amin",
+      "NAV_per_unit": 1.00,
+      "currency": "MYR",
+      "daily_return_rate": "3.2882% p.a.",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmBon Islam",
+      "NAV_per_unit": 1.3360,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmBond",
+      "NAV_per_unit": 1.3594,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmBond Select 1",
+      "NAV_per_unit": 1.0412,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmBond Select 2",
+      "NAV_per_unit": 1.0507,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmCash Management - Class A",
+      "NAV_per_unit": 1.00,
+      "currency": "MYR",
+      "daily_return_rate": "2.876% p.a.",
+      "risk_profile" : "low"
+      
+    },
+    {
+      "name": "AmCash Management - Class B",
+      "NAV_per_unit": 1.00,
+      "currency": "MYR",
+      "daily_return_rate": "2.8241% p.a.",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmCash Plus",
+      "NAV_per_unit": 0.9758,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmDynamic Bond",
+      "NAV_per_unit": 0.7221,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmDynamic Sukuk - Class A",
+      "NAV_per_unit": 1.5118,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmDynamic Sukuk - Class B",
+      "NAV_per_unit": 1.4606,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmIncome",
+      "NAV_per_unit": 1.00,
+      "currency": "MYR",
+      "daily_return_rate": "3.4737% p.a.",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmIncome Advantage",
+      "NAV_per_unit": 1.0169,
+      "currency": "MYR",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmIncome Focus",
+      "NAV_per_unit": 1.0000,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmIncome Institutional 5",
+      "NAV_per_unit": 1.0512,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmIncome Institutional SRI 1",
+      "NAV_per_unit": 1.0184,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmIncome Institutional SRI 3",
+      "NAV_per_unit": 1.0142,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmIncome Management",
+      "NAV_per_unit": 1.0604,
+      "currency": "MYR",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmIncome Plus",
+      "NAV_per_unit": 0.6643,
+      "currency": "MYR",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmIncome Select",
+      "NAV_per_unit": 0.9279,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmIncome USD Fund",
+      "NAV_per_unit": 1.4703,
+      "currency": "USD",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmIncome Value",
+      "NAV_per_unit": 1.0325,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmInstitutional Income Bond SRI",
+      "NAV_per_unit": 1.0600,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmInstitutional Income Premium",
+      "NAV_per_unit": 1.0000,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmIslamic Cash Management - Class A",
+      "NAV_per_unit": 1.00,
+      "currency": "MYR",
+      "daily_return_rate": "3.6542% p.a.",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmIslamic Cash Management - Class B",
+      "NAV_per_unit": 1.00,
+      "currency": "MYR",
+      "daily_return_rate": "3.6542% p.a.",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmIslamic Cash Management - Class C",
+      "NAV_per_unit": 1.00,
+      "currency": "MYR",
+      "daily_return_rate": "3.6542% p.a.",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmIslamic Cash Management - Class D",
+      "NAV_per_unit": 1.00,
+      "currency": "MYR",
+      "daily_return_rate": "3.6542% p.a.",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmIslamic Fixed Income Conservative",
+      "NAV_per_unit": 1.4462,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmIslamic Income Jadwa",
+      "NAV_per_unit": 1.0759,
+      "currency": "MYR",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmIslamic Income Premium",
+      "NAV_per_unit": 1.0000,
+      "currency": "MYR",
+      "risk_profile" : "low"
+    },
+    {
+      "name": "AmIslamic Institutional 1",
+      "NAV_per_unit": 1.0695,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmSingle Bond Series 1 - RM Class",
+      "NAV_per_unit": 1.3532,
+      "currency": "MYR",
+      "risk_profile" : "medium to high"
+    },
+    {
+      "name": "AmSingle Bond Series 1 - RM-Hedged Class",
+      "NAV_per_unit": 1.4681,
+      "currency": "MYR",
+      "risk_profile" : "medium to high"
+    },
+    {
+      "name": "AmSingle Bond Series 1 - SGD Class",
+      "NAV_per_unit": 1.2465,
+      "currency": "SGD",
+      "risk_profile" : "medium to high"
+    },
+    {
+      "name": "AmSingle Bond Series 1 - USD Class",
+      "NAV_per_unit": 1.3309,
+      "currency": "USD",
+      "risk_profile" : "medium to high"
+    },
+    {
+      "name": "AmTactical Bond - Class B (MYR)",
+      "NAV_per_unit": 1.0194,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    }
+    ]

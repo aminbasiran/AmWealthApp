@@ -6,8 +6,7 @@ const marketData = async (req,res)=>{
     try {
 
         if(instrument === undefined){
-            const response = await axios.get("http://localhost:3000/market.json")
-            return res.json(response.data.instruments)
+            return 
         }
 
         else{

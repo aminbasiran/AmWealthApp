@@ -1,0 +1,98 @@
+[
+    {
+      "name": "AmPRS-Asia Pacific REITs Fund Class D",
+      "NAV_per_unit": 0.5800,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmPRS-Asia Pacific REITs Fund Class I",
+      "NAV_per_unit": 0.5781,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmPRS-Conservative Fund Class D",
+      "NAV_per_unit": 0.6236,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmPRS-Conservative Fund Class I",
+      "NAV_per_unit": 0.6241,
+      "currency": "MYR",
+      "risk_profile" : "low to medium"
+    },
+    {
+      "name": "AmPRS-Dynamic Sukuk Fund Class D",
+      "NAV_per_unit": 0.7180,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmPRS-Dynamic Sukuk Fund Class I",
+      "NAV_per_unit": 0.6616,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmPRS-Growth Fund Class D",
+      "NAV_per_unit": 0.5527,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmPRS-Growth Fund Class I",
+      "NAV_per_unit": 0.5765,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmPRS-Islamic Balanced Fund Class D",
+      "NAV_per_unit": 0.6918,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmPRS-Islamic Balanced Fund Class I",
+      "NAV_per_unit": 0.7000,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmPRS-Islamic Equity Fund Class D",
+      "NAV_per_unit": 0.8149,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmPRS-Islamic Equity Fund Class I",
+      "NAV_per_unit": 0.8288,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "AmPRS-Moderate Fund Class D",
+      "NAV_per_unit": 0.5397,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmPRS-Moderate Fund Class I",
+      "NAV_per_unit": 0.5553,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmPRS-Tactical Bond Fund Class D",
+      "NAV_per_unit": 0.5756,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmPRS-Tactical Bond Fund Class I",
+      "NAV_per_unit": 0.5859,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    }
+  ]

@@ -1,299 +1,552 @@
 {
     "instruments" : {
-        "stocks" : {
-            "results": [
-                  {
-                    "name": "Advantage Asia Pacific ex Japan Dividend",
-                    "nav": 1.8581,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "Advantage Global Equity Volatility Focused - AUD Hedged Class",
-                    "nav": 1.2693,
-                    "currency": "AUD"
-                  },
-                  {
-                    "name": "Advantage Global Equity Volatility Focused - MYR Hedged Class",
-                    "nav": 1.3444,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "Advantage Global High Income Bond - RM Hedged Class",
-                    "nav": 0.9216,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "Advantage Global High Income Bond - USD Class",
-                    "nav": 0.8589,
-                    "currency": "USD"
-                  },
-                  {
-                    "name": "AmAl-Amin",
-                    "nav": 1,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmASEAN Equity",
-                    "nav": 0.4039,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmAsia Pacific REITs - Class B (MYR)",
-                    "nav": 0.6549,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmAsia Pacific REITs Plus",
-                    "nav": 0.4696,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmBalanced",
-                    "nav": 1.3594,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmBon Islam",
-                    "nav": 1.3333,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmBond",
-                    "nav": 1.3584,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmBond Select 1",
-                    "nav": 1.0412,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmBond Select 2",
-                    "nav": null,
-                    "currency": null
-                  },
-                  {
-                    "name": "AmCash Management - Class A",
-                    "nav": 1,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmCash Management - Class B",
-                    "nav": 1,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmCash Plus",
-                    "nav": 0.9747,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmChina A-Shares - AUD-Hedged Class",
-                    "nav": 0.4614,
-                    "currency": "AUD"
-                  },
-                  {
-                    "name": "AmChina A-Shares - RM Class",
-                    "nav": 3.0271,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmChina A-Shares - RM-Hedged Class",
-                    "nav": 0.9722,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmChina A-Shares - SGD-Hedged Class",
-                    "nav": 0.4919,
-                    "currency": "SGD"
-                  },
-                  {
-                    "name": "AmChina A-Shares - USD Class",
-                    "nav": 0.5122,
-                    "currency": "USD"
-                  },
-                  {
-                    "name": "AmConservative",
-                    "nav": 1.1639,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmCumulative Growth",
-                    "nav": 0.8999,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmDividend Income",
-                    "nav": 0.3055,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmDynamic Allocator",
-                    "nav": 0.2328,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmDynamic Bond",
-                    "nav": 0.7222,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmDynamic Sukuk - Class A",
-                    "nav": 1.5106,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmDynamic Sukuk - Class B",
-                    "nav": 1.4595,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIncome",
-                    "nav": 1,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIncome Advantage",
-                    "nav": 1.0158,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIncome Focus",
-                    "nav": 1,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIncome Institutional 1",
-                    "nav": 1.0166,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIncome Institutional 3",
-                    "nav": 1.0129,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIncome Institutional 5",
-                    "nav": 1.0497,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIncome Management",
-                    "nav": 1.0593,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIncome Plus",
-                    "nav": 0.6632,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIncome Select",
-                    "nav": 0.9279,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIncome USD Fund",
-                    "nav": 1.4706,
-                    "currency": "USD"
-                  },
-                  {
-                    "name": "AmIncome Value",
-                    "nav": 1.0302,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmInstitutional Income Bond",
-                    "nav": 1.0581,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmInstitutional Income Premium",
-                    "nav": 1,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIslamic Balanced",
-                    "nav": 0.5639,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIslamic Cash Management - Class A",
-                    "nav": 1,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIslamic Cash Management - Class B",
-                    "nav": 1,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIslamic Cash Management - Class C",
-                    "nav": 1,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIslamic Cash Management - Class D",
-                    "nav": 1,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIslamic China Equity Fund � RM Class",
-                    "nav": 1.0448,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIslamic China Equity Fund � USD Class",
-                    "nav": 0.9838,
-                    "currency": "USD"
-                  },
-                  {
-                    "name": "AmIslamic Fixed Income Conservative",
-                    "nav": 1.4454,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIslamic Global SRI - RM",
-                    "nav": 1.1108,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "AmIslamic Global SRI - USD R",
-                    "nav": 1.0018,
-                    "currency": "USD"
-                  },
-                  {
-                    "name": "AmIslamic Growth",
-                    "nav": 0.5626,
-                    "currency": "MYR"
-                  }
+        "equity" : [
+            {
+              "name": "Advantage Asia Pacific ex Japan Dividend",
+              "NAV_per_unit": 1.9233,
+              "currency": "MYR"
+            },
+            {
+              "name": "Advantage Global Equity Volatility Focused - AUD Hedged Class",
+              "NAV_per_unit": 1.2788,
+              "currency": "AUD"
+            },
+            {
+              "name": "Advantage Global Equity Volatility Focused - MYR Hedged Class",
+              "NAV_per_unit": 1.3540,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmASEAN Equity",
+              "NAV_per_unit": 0.4039,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmAsia Pacific REITs - Class B (MYR)",
+              "NAV_per_unit": 0.6604,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmAsia Pacific REITs Plus",
+              "NAV_per_unit": 0.4731,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmChina A-Shares - AUD-Hedged Class",
+              "NAV_per_unit": 0.4639,
+              "currency": "AUD"
+            },
+            {
+              "name": "AmChina A-Shares - RM Class",
+              "NAV_per_unit": 3.0128,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmChina A-Shares - RM-Hedged Class",
+              "NAV_per_unit": 0.9771,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmChina A-Shares - SGD-Hedged Class",
+              "NAV_per_unit": 0.4943,
+              "currency": "SGD"
+            },
+            {
+              "name": "AmChina A-Shares - USD Class",
+              "NAV_per_unit": 0.5151,
+              "currency": "USD"
+            },
+            {
+              "name": "AmCumulative Growth",
+              "NAV_per_unit": 0.9288,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmDividend Income",
+              "NAV_per_unit": 0.3097,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmDynamic Allocator",
+              "NAV_per_unit": 0.2330,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIslamic China Equity Fund – RM Class",
+              "NAV_per_unit": 1.0320,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIslamic China Equity Fund – USD Class",
+              "NAV_per_unit": 0.9819,
+              "currency": "USD"
+            },
+            {
+              "name": "AmIslamic Global SRI - RM",
+              "NAV_per_unit": 1.1177,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIslamic Global SRI - USD R",
+              "NAV_per_unit": 1.0187,
+              "currency": "USD"
+            },
+            {
+              "name": "AmIslamic Growth",
+              "NAV_per_unit": 0.5703,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIttikal",
+              "NAV_per_unit": 0.5274,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmMalaysia Equity",
+              "NAV_per_unit": 1.9668,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Climate Tech Fund - RM Class",
+              "NAV_per_unit": 0.9475,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Climate Tech Fund - RM-Hedged Class",
+              "NAV_per_unit": 0.7863,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Climate Tech Fund - USD Class",
+              "NAV_per_unit": 0.8482,
+              "currency": "USD"
+            },
+            {
+              "name": "AmSustainable Series - Global Lower Carbon Equity Fund - RM Class",
+              "NAV_per_unit": 1.0845,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Global Lower Carbon Equity Fund - RM-Hedged Class",
+              "NAV_per_unit": 0.9873,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Global Lower Carbon Equity Fund - USD Class",
+              "NAV_per_unit": 1.0208,
+              "currency": "USD"
+            },
+            {
+              "name": "AmSustainable Series - Health Fund - RM Class",
+              "NAV_per_unit": 1.0177,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Health Fund - RM-Hedged Class",
+              "NAV_per_unit": 1.0177,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Health Fund - USD Class",
+              "NAV_per_unit": 0.9658,
+              "currency": "USD"
+            },
+            {
+              "name": "AmSustainable Series - Nutrition Fund - RM Class",
+              "NAV_per_unit": 0.6843,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Nutrition Fund - RM-Hedged Class",
+              "NAV_per_unit": 0.5945,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Nutrition Fund - USD Class",
+              "NAV_per_unit": 0.6115,
+              "currency": "USD"
+            },
+            {
+              "name": "AmSustainable Series - Positive Change - USD Class",
+              "NAV_per_unit": 0.7893,
+              "currency": "USD"
+            },
+            {
+              "name": "AmSustainable Series - Positive Change RM-Hedged Class",
+              "NAV_per_unit": 0.7428,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Sustainable Outcomes Global Equity Fund - RM Class",
+              "NAV_per_unit": 1.4096,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Sustainable Outcomes Global Equity Fund - RM-Hedged Class",
+              "NAV_per_unit": 1.2777,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSustainable Series - Sustainable Outcomes Global Equity Fund - USD Class",
+              "NAV_per_unit": 1.3304,
+              "currency": "USD"
+            },
+            {
+              "name": "AmTotal Return",
+              "NAV_per_unit": 0.4673,
+              "currency": "MYR"
+            },
+            {
+              "name": "Asia Pacific Equity Income",
+              "NAV_per_unit": 0.8837,
+              "currency": "MYR"
+            },
+            {
+              "name": "Asia-Pacific Property Equities",
+              "NAV_per_unit": 1.0563,
+              "currency": "MYR"
+            },
+            {
+              "name": "Europe Equity Growth",
+              "NAV_per_unit": 2.7565,
+              "currency": "MYR"
+            },
+            {
+              "name": "European Equity Alpha",
+              "NAV_per_unit": 1.2818,
+              "currency": "MYR"
+            },
+            {
+              "name": "Global Agribusiness",
+              "NAV_per_unit": 1.5934,
+              "currency": "MYR"
+            },
+            {
+              "name": "Global Dividend - RM Class",
+              "NAV_per_unit": 1.6125,
+              "currency": "MYR"
+            },
+            {
+              "name": "Global Dividend - RM Hedged Class",
+              "NAV_per_unit": 1.0000,
+              "currency": "MYR"
+            },
+            {
+              "name": "Global Dividend - USD Class",
+              "NAV_per_unit": 1.3852,
+              "currency": "USD"
+            },
+            {
+              "name": "Global Emerging Market Opportunities",
+              "NAV_per_unit": 1.8285,
+              "currency": "MYR"
+            },
+            {
+              "name": "Global Islamic Equity*",
+              "NAV_per_unit": 1.2756,
+              "currency": "MYR"
+            },
+            {
+              "name": "Global Multi -Asset Income - AUD Class",
+              "NAV_per_unit": 0.8383,
+              "currency": "AUD"
+            },
+            {
+              "name": "Global Multi -Asset Income - MYR Class",
+              "NAV_per_unit": 0.8617,
+              "currency": "MYR"
+            },
+            {
+              "name": "Global Multi -Asset Income - SGD Class",
+              "NAV_per_unit": 0.8006,
+              "currency": "SGD"
+            },
+            {
+              "name": "Global Multi -Asset Income - USD Class",
+              "NAV_per_unit": 0.8617,
+              "currency": "USD"
+            },
+            {
+              "name": "Global Property Equities Fund",
+              "NAV_per_unit": 1.8650,
+              "currency": "MYR"
+            },
+            {
+              "name": "Global Smaller Companies Fund - RM Class",
+              "NAV_per_unit": 0.8065,
+              "currency": "MYR"
+            },
+            {
+              "name": "Global Smaller Companies Fund - RM-Hedged Class",
+              "NAV_per_unit": 0.6840,
+              "currency": "MYR"
+            },
+            {
+              "name": "Global Smaller Companies Fund - USD Class",
+              "NAV_per_unit": 0.7219,
+              "currency": "USD"
+            },
+            {
+              "name": "Hong Kong Tech Index Fund - HKD Class",
+              "NAV_per_unit": 0.6937,
+              "currency": "HKD"
+            },
+            {
+              "name": "Hong Kong Tech Index Fund - RM Class",
+              "NAV_per_unit": 0.7670,
+              "currency": "MYR"
+            },
+            {
+              "name": "Hong Kong Tech Index Fund - RM-Hedged Class",
+              "NAV_per_unit": 0.6621,
+              "currency": "MYR"
+            },
+            {
+              "name": "New China Sectors Index Fund - HKD Class",
+              "NAV_per_unit": 0.0976,
+              "currency": "HKD"
+            },
+            {
+              "name": "New China Sectors Index Fund - RM Class",
+              "NAV_per_unit": 0.1457,
+              "currency": "MYR"
+            },
+            {
+              "name": "New China Sectors Index Fund - RM-Hedged Class",
+              "NAV_per_unit": 0.0916,
+              "currency": "MYR"
+            },
+            {
+              "name": "Pan European Property Equities",
+              "NAV_per_unit": 1.0954,
+              "currency": "MYR"
+            },
+            {
+              "name": "Precious Metals Securities",
+              "NAV_per_unit": 0.4568,
+              "currency": "MYR"
+            },
+            {
+              "name": "Robotech Fund - RM Hedged Class*",
+              "NAV_per_unit": 1.4267,
+              "currency": "MYR"
+            },
+            {
+              "name": "Robotech Fund - USD CLASS*",
+              "NAV_per_unit": 1.5732,
+              "currency": "USD"
+            },
+            {
+              "name": "US-Canada Income And Growth",
+              "NAV_per_unit": 1.0923,
+              "currency": "MYR"
+            }
+          ],
+          "fixed_income" : [
+            {
+              "name": "Advantage Global High Income Bond - RM Hedged Class",
+              "NAV_per_unit": 0.9223,
+              "currency": "MYR"
+            },
+            {
+              "name": "Advantage Global High Income Bond - USD Class",
+              "NAV_per_unit": 0.8601,
+              "currency": "USD"
+            },
+            {
+              "name": "AmAl-Amin",
+              "NAV_per_unit": 1.00,
+              "currency": "MYR",
+              "daily_return_rate": "3.2882% p.a."
+            },
+            {
+              "name": "AmBon Islam",
+              "NAV_per_unit": 1.3360,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmBond",
+              "NAV_per_unit": 1.3594,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmBond Select 1",
+              "NAV_per_unit": 1.0412,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmBond Select 2",
+              "NAV_per_unit": 1.0507,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmCash Management - Class A",
+              "NAV_per_unit": 1.00,
+              "currency": "MYR",
+              "daily_return_rate": "2.876% p.a."
+            },
+            {
+              "name": "AmCash Management - Class B",
+              "NAV_per_unit": 1.00,
+              "currency": "MYR",
+              "daily_return_rate": "2.8241% p.a."
+            },
+            {
+              "name": "AmCash Plus",
+              "NAV_per_unit": 0.9758,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmDynamic Bond",
+              "NAV_per_unit": 0.7221,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmDynamic Sukuk - Class A",
+              "NAV_per_unit": 1.5118,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmDynamic Sukuk - Class B",
+              "NAV_per_unit": 1.4606,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIncome",
+              "NAV_per_unit": 1.00,
+              "currency": "MYR",
+              "daily_return_rate": "3.4737% p.a."
+            },
+            {
+              "name": "AmIncome Advantage",
+              "NAV_per_unit": 1.0169,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIncome Focus",
+              "NAV_per_unit": 1.0000,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIncome Institutional 5",
+              "NAV_per_unit": 1.0512,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIncome Institutional SRI 1",
+              "NAV_per_unit": 1.0184,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIncome Institutional SRI 3",
+              "NAV_per_unit": 1.0142,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIncome Management",
+              "NAV_per_unit": 1.0604,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIncome Plus",
+              "NAV_per_unit": 0.6643,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIncome Select",
+              "NAV_per_unit": 0.9279,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIncome USD Fund",
+              "NAV_per_unit": 1.4703,
+              "currency": "USD"
+            },
+            {
+              "name": "AmIncome Value",
+              "NAV_per_unit": 1.0325,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmInstitutional Income Bond SRI",
+              "NAV_per_unit": 1.0600,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmInstitutional Income Premium",
+              "NAV_per_unit": 1.0000,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIslamic Cash Management - Class A",
+              "NAV_per_unit": 1.00,
+              "currency": "MYR",
+              "daily_return_rate": "3.6542% p.a."
+            },
+            {
+              "name": "AmIslamic Cash Management - Class B",
+              "NAV_per_unit": 1.00,
+              "currency": "MYR",
+              "daily_return_rate": "3.6542% p.a."
+            },
+            {
+              "name": "AmIslamic Cash Management - Class C",
+              "NAV_per_unit": 1.00,
+              "currency": "MYR",
+              "daily_return_rate": "3.6542% p.a."
+            },
+            {
+              "name": "AmIslamic Cash Management - Class D",
+              "NAV_per_unit": 1.00,
+              "currency": "MYR",
+              "daily_return_rate": "3.6542% p.a."
+            },
+            {
+              "name": "AmIslamic Fixed Income Conservative",
+              "NAV_per_unit": 1.4462,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIslamic Income Jadwa",
+              "NAV_per_unit": 1.0759,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIslamic Income Premium",
+              "NAV_per_unit": 1.0000,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmIslamic Institutional 1",
+              "NAV_per_unit": 1.0695,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSingle Bond Series 1 - RM Class",
+              "NAV_per_unit": 1.3532,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSingle Bond Series 1 - RM-Hedged Class",
+              "NAV_per_unit": 1.4681,
+              "currency": "MYR"
+            },
+            {
+              "name": "AmSingle Bond Series 1 - SGD Class",
+              "NAV_per_unit": 1.2465,
+              "currency": "SGD"
+            },
+            {
+              "name": "AmSingle Bond Series 1 - USD Class",
+              "NAV_per_unit": 1.3309,
+              "currency": "USD"
+            },
+            {
+              "name": "AmTactical Bond - Class B (MYR)",
+              "NAV_per_unit": 1.0194,
+              "currency": "MYR"
+            }
             ]
-          },
-          "mutual_funds" : {
-            "results": [
-                {
-                    "name": "Advantage Asia Pacific ex Japan Dividend",
-                    "nav": 1.8581,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "Advantage Global Equity Volatility Focused - AUD Hedged Class",
-                    "nav": 1.2693,
-                    "currency": "AUD"
-                  },
-                  {
-                    "name": "Advantage Global Equity Volatility Focused - MYR Hedged Class",
-                    "nav": 1.3444,
-                    "currency": "MYR"
-                  },
-                  {
-                    "name": "Advantage Global High Income Bond - RM Hedged Class",
-                    "nav": 0.9216,
-                    "currency": "MYR"
-                  }
-            ]
-
-          }
     }
     
 }

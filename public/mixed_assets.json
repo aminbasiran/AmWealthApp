@@ -1,0 +1,43 @@
+[
+    {
+      "name": "AmBalanced",
+      "NAV_per_unit": 1.3686,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "AmConservative",
+      "NAV_per_unit": 1.1664,
+      "currency": "MYR"
+    },
+    {
+      "name": "AmIslamic Balanced",
+      "NAV_per_unit": 0.5684,
+      "currency": "MYR",
+      "risk_profile" : "medium"
+    },
+    {
+      "name": "Income and Growth - AUD-Hedged Class",
+      "NAV_per_unit": 1.0251,
+      "currency": "AUD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Income and Growth - RM-Hedged Class",
+      "NAV_per_unit": 1.1155,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Income and Growth - SGD-Hedged Class",
+      "NAV_per_unit": 1.0619,
+      "currency": "SGD",
+      "risk_profile" : "high"
+    },
+    {
+      "name": "Income and Growth - USD Class",
+      "NAV_per_unit": 1.1172,
+      "currency": "USD",
+      "risk_profile" : "high"
+    }
+]
