@@ -1,49 +1,45 @@
 [
     {
-      "name": "temp",
-      "NAV_per_unit": 99.99,
-      "currency": "MYR",
-      "risk_profile" : "high"
-    },
-    {
       "name": "Advantage Asia Pacific ex Japan Dividend",
       "NAV_per_unit": 1.9233,
       "currency": "MYR",
-      "risk_profile" : "high"
+      "risk_profile" : 5
     },
     {
       "name": "Advantage Global Equity Volatility Focused - AUD Hedged Class",
       "NAV_per_unit": 1.2788,
-      "currency": "AUD"
+      "currency": "AUD",
+      "risk_profile" : 1
     },
     {
       "name": "Advantage Global Equity Volatility Focused - MYR Hedged Class",
       "NAV_per_unit": 1.3540,
-      "currency": "MYR"
+      "currency": "MYR",
+      "risk_profile" : 2
     },
     {
       "name": "AmASEAN Equity",
       "NAV_per_unit": 0.4039,
       "currency": "MYR",
-      "risk_profile" : "high"
+      "risk_profile" : 4
     },
     {
       "name": "AmAsia Pacific REITs - Class B (MYR)",
       "NAV_per_unit": 0.6604,
       "currency": "MYR",
-      "risk_profile" : "high"
+      "risk_profile" : 4
     },
     {
       "name": "AmAsia Pacific REITs Plus",
       "NAV_per_unit": 0.4731,
       "currency": "MYR",
-      "risk_profile" : "high"
+      "risk_profile" : 3
     },
     {
       "name": "AmChina A-Shares - AUD-Hedged Class",
       "NAV_per_unit": 0.4639,
       "currency": "AUD",
-      "risk_profile" : "high"
+      "risk_profile" : 1
     },
     {
       "name": "AmChina A-Shares - RM Class",
