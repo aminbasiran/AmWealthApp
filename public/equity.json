@@ -1,5 +1,11 @@
 [
     {
+      "name": "temp",
+      "NAV_per_unit": 99.99,
+      "currency": "MYR",
+      "risk_profile" : "high"
+    },
+    {
       "name": "Advantage Asia Pacific ex Japan Dividend",
       "NAV_per_unit": 1.9233,
       "currency": "MYR",
