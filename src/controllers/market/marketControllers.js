@@ -2,7 +2,7 @@ const axios = require("axios")
 
 const marketData = async (req,res)=>{
 
-    const {instrument, limit} = req.query
+    const {instrument} = req.query
     try {
 
         if(instrument === undefined){
@@ -10,7 +10,7 @@ const marketData = async (req,res)=>{
         }
 
         else{
-            const response = await axios.get(`http://localhost:3000/${instrument}.json`)
+            const response = await axios.get(`https://amwealthapp-mock-api.onrender.com/api/v1/${instrument}.json`)
             res.json(response.data)
         }
 
