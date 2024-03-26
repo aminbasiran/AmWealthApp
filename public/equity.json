@@ -3,22 +3,22 @@
       "name": "Advantage Asia Pacific ex Japan Dividend",
       "NAV_per_unit": 1.9233,
       "currency": "MYR",
-      "risk_profile" : 5
+      "risk_profile" : 1
     },
     {
       "name": "Advantage Global Equity Volatility Focused - AUD Hedged Class",
       "NAV_per_unit": 1.2788,
       "currency": "AUD",
-      "risk_profile" : 2
+      "risk_profile" : 5
     },
     {
       "name": "Advantage Global Equity Volatility Focused - MYR Hedged Class",
       "NAV_per_unit": 1.3540,
       "currency": "MYR",
-      "risk_profile" : 3
+      "risk_profile" : 2
     },
     {
-      "name": "AmASEAN Equity",
+      "name": "Testing equity",
       "NAV_per_unit": 0.4039,
       "currency": "MYR",
       "risk_profile" : 5
