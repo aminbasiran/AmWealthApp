@@ -10,7 +10,7 @@ const marketData = async (req,res)=>{
         }
 
         else{
-            const response = await axios.get(`https://amwealthapp-mock-api.onrender.com/api/v1/${instrument}.json`)
+            const response = await axios.get(`https://amwealthapp-mock-api.onrender.com/${instrument}.json`)
             res.json(response.data)
         }
 
